@@ -13,4 +13,5 @@ resource "aws_instance" "namaste" {
 output "instance_id" {
   value = aws_instance.namaste.id
 
+
 }
